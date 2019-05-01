@@ -1,0 +1,106 @@
+@media only screen and (max-width: 768px) {
+	header.nav-brand{
+		padding-left: 1rem;
+	}
+	.section-1 .row .col-md-6 .pray img{
+	opacity: 0.9;
+	width: 80%;
+	border-radius: 0.5em;
+	height: 400px;
+	border: 2px solid #888;
+}
+	
+	.section-1 .row .col-md-6 .panel{
+		position: initial;
+		width: initial;
+		height: initial;
+	}
+	.pray img{
+		
+	}
+	.section-2 .cover{
+		background-position: -25vmin -10vmin;
+
+
+	}
+	.numbers .rect{
+		width: 10rem;
+		height: 8rem;
+	}
+	.numbers .rect h1{
+		font-size: 2rem;
+	}
+	.section-3{
+		height: inherit;
+		padding: 10vmin !important;
+
+	}
+	.section-3 .row h1{
+		padding: 6vmin 4vmin;
+
+	}
+
+	.section-3 .row .col-md-6{
+		text-align: center;
+	}
+	.section-3 .desktop i{
+		font-size: 8vmin;
+
+	}
+	.section-4 .carousel-item{
+		padding-left: 0.6rem;
+	}
+	.section-4 .team{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+	}
+	.section-4 .carousel-inner{
+		width: 24rem
+	}
+
+}
+
+@media only screen and (max-width: 425px) {
+	footer .row .col-md-2{
+		margin-top: 8vmin;
+	}
+ 
+.section-1 .row .col-md-6 .pray img{
+	opacity: 0.9;
+	width: 80%;
+	border-radius: 0.5em;
+	height: 400px;
+	border: 2px solid #888;
+}
+}
+
+@media only screen  and (max-width: 320px) {
+	.section-4 .card{
+		width: 18rem;
+
+	}
+	.section-4 .carousel-inner{
+		margin-left: -14vmin;
+	}
+	
+	
+}
+@media (max-width: 768px) {
+	header .container .row .myownpic{
+		display: none;
+
+
+	}
+
+	html, body{
+	overflow-x: hidden;
+	}
+
+}
+
+@media (max-width: 1024px){
+	.carousel-inner{
+
+	}
+}
